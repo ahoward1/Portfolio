@@ -1,0 +1,185 @@
+body, section, h1, h3, ul, li, img {
+	margin: 0;
+	padding: 0; 
+	border: 0;
+	font-size: 100%;
+	font: 'Lora', serif;
+	vertical-align: baseline;
+	box-sizing: border-box;
+}
+
+header, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+body {
+	font: 16px, 'Philosopher', sans-serif;
+
+}
+
+ul {
+	list-style: none;
+}
+
+/* Navigation */
+
+.top-navigation {
+
+}
+
+.top-navigation .links {
+	float-left;
+	color: #838994;
+	font-size: 1.04em;
+	margin-top: 1.7rem;
+}
+ .top-navigation .links li {
+ 	display: inline-block;
+ 	margin-left: 1.563rem;
+ }
+
+ .top-navigation .links li.active {
+ 	color: #4c5058;
+	font-weight: 500;
+ }
+
+li active {}
+	.top-navigation .links li:hover {
+		cursor: pointer;
+		color: #333333;
+	}
+
+/* Button */
+
+button {
+	width: 8.754rem;
+	background-color: #AA3939;
+	border-color: #FFAAAA;
+	text-shadow: none;
+	border-style: none;
+	border-radius: 1px;
+	padding: 1rem 1.5rem;
+	color: white;
+	font-size: 1.125rem;
+	text-align: center;
+}
+
+button:hover {
+	background-color: #d9400e;
+	border-color: #cf3d0e;
+	cursor: pointer;
+}
+
+/* Header */
+
+.header h1,
+.header h3 {
+	color: white;
+	text-align: center;
+	font-weight: 300;
+}
+
+.header h1 {
+	margin-top: 17.5rem;
+	margin-bottom: 0px;
+	font-size: 3.125rem;
+}
+
+.header h3 {
+	margin-top: 20px;
+	font-size: 40px;
+}
+
+.header .buttons {
+	color: white;
+	text-align: center;
+	margin-top: 1.563rem;
+}
+
+/* Images */
+
+.images {
+	background-color: white;
+	overflow: hidden;
+	padding-bottom: 5rem;
+}
+
+.images .content {
+	margin-top: 7.875rem;
+	padding: none;
+	color: #1d1e21;
+	text-align: center;
+}
+
+.images h2 {
+	font-size: 1rem;
+	margin: 1.625rem 0 3.125rem;
+	font-weight: 300;
+}
+
+.images .Karma > li {
+	width: 33.3333333%;
+	float: left;
+}
+
+.images .Karma h3 {
+	font-weight: 400;
+	font-size: 2.5rem;
+	margin: 2.5rem 0px 1.875rem;
+}
+
+.content {
+	font-weight: 300;
+	font-size: 2.5rem;	
+}
+
+/* Footer */
+
+.social {
+	background-color: #fff;
+	overflow: auto;
+	padding-bottom: 9.375rem;
+	text-align: center;
+}
+
+.social hr {
+	border: 0;
+	border-top: 1px solid black;
+	margin: 1.313rem 0;
+}
+
+.social .icons > li {
+	border-radius: 1.25rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	display: inline-block;
+	margin: 1.25 rem 5px;
+	border: 1px solid black;
+	padding: 0.625rem 0;
+	text-align: center;
+}
+
+.social .icons > li:hover {
+	cursor: pointer;
+}
+
+.social .google+ {
+	color: red;
+}
+
+.social .facebook {
+	color: powder-blue;
+}
+
+.social .git {
+	color: purple;
+}
+
+.social .copy {
+	font-size: 0.9rem;
+	font-weight: 300;
+	color: #838994;
+}
